@@ -1,0 +1,64 @@
+body {
+   font-family: 'Josefin Sans', sans-serif;
+   background: linear-gradient(to right, #d69cd8, #ac39ac);
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding-top: 2rem;
+}
+
+.title {
+   margin: 0;
+   font-size: 3rem;
+   text-transform: uppercase;
+}
+
+.subtitle {
+   margin: 0;
+   font-weight: 300;
+}
+
+.subtitle span a {
+   display: inline-block;
+   background: #000;
+   padding: 0.3rem 1rem;
+   color: white;
+   font-weight: normal;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.color-picker {
+   padding-top: 3rem;
+}
+
+.btn {
+   all: unset;
+   background: rgb(32, 32, 32);
+   box-shadow: 0 0px 3.6px rgba(0, 0, 0, 0.078), 0 0px 10px rgba(0, 0, 0, 0.091),
+      0 0px 24.1px rgba(0, 0, 0, 0.107), 0 0px 80px rgba(0, 0, 0, 0.2);
+   padding: 0.8rem 2rem;
+   color: white;
+   font-family: inherit;
+   font-size: 0.8rem;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+.btn:active {
+   background: rgb(12, 12, 12);
+}
+
+.answer {
+   display: flex;
+   align-items: center;
+}
+
+.gradient-code {
+   background: white;
+   padding: 0.8rem 1rem;
+}
+
+.copy {
+   padding: 0.8rem 1rem;
+}
